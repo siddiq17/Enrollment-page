@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#f9f9f9 ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 14px 16px;
+}
+
+nav ul li:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #ffd700; /* yellow color */
+    margin: 8px auto 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+}
+
+form input[type="reset"] {
+    background-color: #ccc;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+li.c2{
+  color: orange;}
+
+li.c3{ 
+  color:black;
+
+    border-bottom: 1px solid black;
+text-decoration: underline;
+
+}
